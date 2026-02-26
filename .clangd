@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    [
+      "-xc",
+      "--target=x86_64-elf",
+      "-std=c11",
+      "-ffreestanding",
+      "-I./src",
+      "-I./limine-10.7.0/limine-protocol",
+    ]
+  Remove: ["-m*", "-std=c++*"]
